@@ -110,6 +110,9 @@ export type PluginOptions = {
     options?: object
 }
 
+export type AliasConfigration = {
+    [key: string]: string
+}
 export type IgnoredConfigration = string[]
 
 export type PluginsConfigration = PluginOptions[]

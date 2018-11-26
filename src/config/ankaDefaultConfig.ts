@@ -11,6 +11,7 @@ import typescriptParser from '../parsers/typescriptParser'
 import extractDependencyPlugin from '../plugins/extractDependencyPlugin'
 
 import {
+    AliasConfigration,
     IgnoredConfigration,
     ParsersConfigration,
     PluginsConfigration
@@ -136,6 +137,7 @@ export const plugins: PluginsConfigration = [
     }
 ]
 
+export const alias: AliasConfigration = {}
 /**
  * Files that will be ignored in compilation.
  */
